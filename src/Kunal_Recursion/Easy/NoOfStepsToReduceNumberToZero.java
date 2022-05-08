@@ -15,7 +15,7 @@ public class NoOfStepsToReduceNumberToZero {
         if(n%2==0){
             return steps(n/2,count+1);
         }
-        else{
+        else {
             return steps(n-1,count+1);
         }
     }
